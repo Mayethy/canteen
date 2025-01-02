@@ -46,8 +46,6 @@
     </div>
   </div>
 </div>
-</body>
-
 
   <!-- 开发环境版本，包含了有帮助的命令行警告 -->
   <script src="../../plugins/vue/vue.js"></script>
@@ -103,7 +101,7 @@
               let res = await loginApi(this.loginForm)
               if (String(res.code) === '1') {//1表示登录成功
                 localStorage.setItem('userInfo',JSON.stringify(res.data))
-                window.location.href= '../../index.html'
+                window.location.href= '/backend/index.html'
               } else {
                 this.$message.error(res.msg)
                 this.loading = false

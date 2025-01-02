@@ -43,7 +43,7 @@ public class DishController {
      * @param dishDto
      * @return
      */
-    @PutMapping
+    @PostMapping
     public R<String> save(@RequestBody DishDto dishDto) {
         log.info(dishDto.toString());
 
@@ -123,7 +123,7 @@ public class DishController {
      * @param dishDto
      * @return
      */
-    @PostMapping
+    @PutMapping
     public R<String> update(@RequestBody DishDto dishDto) {
         log.info(dishDto.toString());
 
