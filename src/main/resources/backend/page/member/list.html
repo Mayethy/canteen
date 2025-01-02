@@ -88,11 +88,11 @@
               {{ scope.row.status == '1' ? '禁用' : '启用' }}
             </el-button>
             <el-button
-              type="text"
-              size="small"
-              class="delBut"
-              @click="deleteHandle(scope.row.id)"
-              v-if="user === 'admin'"
+                    type="text"
+                    size="small"
+                    class="delBut"
+                    @click="deleteHandle(scope.row.id)"
+                    v-if="user === 'admin'"
             >
               删除
             </el-button>

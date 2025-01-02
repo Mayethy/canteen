@@ -21,4 +21,4 @@ mybatis-plus:
     db-config:
       id-type: ASSIGN_ID
 canteen:
-  path: C:\Users\lvyan\Desktop\images
+  path: C:\Users\lvyan\Desktop\images\
